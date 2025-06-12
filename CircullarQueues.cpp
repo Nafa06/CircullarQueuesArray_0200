@@ -114,3 +114,7 @@ public:
         }
     }
 };
+
+int main()
+{
+}
