@@ -19,12 +19,14 @@ public:
         int num;
         cout << "Enter a number to insert: ";
         cin >> num;
-        cout << endl;
+
 
         // 1. cek apakah antrian penuh
         if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
         {
             cout << "\nQueue overflow\n"; // 1.a
+            cout << endl;
+            cout << endl;
             return;                       // 1.b
         }
 
