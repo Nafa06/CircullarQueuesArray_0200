@@ -81,10 +81,13 @@ public:
         if (FRONT == -1)
         {
             cout << "Queue is empty\n";
+            cout << endl;
             return;
         }
 
         cout << "\nElements in the queue are...\n";
+        cout << endl;
+
 
         // Jika FRONT_position <= REAR_position, iterasi dari FRONT ke REAR
         if (FRONT_position <= REAR_position)
