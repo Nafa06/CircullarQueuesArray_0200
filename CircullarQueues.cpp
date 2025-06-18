@@ -86,7 +86,6 @@ public:
         }
 
         cout << "\nElements in the queue are...\n";
-        cout << endl;
 
 
         // Jika FRONT_position <= REAR_position, iterasi dari FRONT ke REAR
