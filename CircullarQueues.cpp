@@ -20,14 +20,13 @@ public:
         cout << "Enter a number to insert: ";
         cin >> num;
 
-
         // 1. cek apakah antrian penuh
         if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
         {
             cout << "\nQueue overflow\n"; // 1.a
             cout << endl;
             cout << endl;
-            return;                       // 1.b
+            return; // 1.b
         }
 
         // 2. cek apakah antrian kosong
@@ -52,10 +51,12 @@ public:
         if (FRONT == -1)
         {
             cout << "\nQueue underflow\n";
+            cout << endl;
+
             return;
         }
         cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
-
+        cout << endl;
         // Cek apakah antrian hanya memiliki satu elemen
         if (FRONT == REAR)
         {
